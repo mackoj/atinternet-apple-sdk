@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
 		st.libraries = "icucore"
 		st.dependency 'JRSwizzle'
 		st.dependency 'KLCPopup'
-		st.dependency 'Socket.IO-Client-Swift'
+		st.dependency 'Socket.IO-Client-Swift', '~> 12.0'
 	end
 
     s.subspec 'watchOSTracker' do |wos|
